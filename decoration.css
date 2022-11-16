@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.no{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    height: 70px;
+    align-items: center;
+}
+.no span{
+    color:white;
+}
+.no ul{
+    display: flex;
+    
+}
+ ul li {
+    list-style: none;
+    padding:20px;
+   
+}
+.no2 ul li a {
+    color:white;
+     text-decoration: none; 
+     border-left:1px solid white;
+     padding:30px;
+    
+}
+.image{
+    background-image: url("image/tree-736885__480.jpg");
+    background-size: cover;
+    
+    height: 600px;
+    width: 100%;
+}
+.image img{
+    height: 100%;
+}
+.paragraph{
+    display: flex;
+    border: 1px solid;
+    
+}
+.paragraph div
+{border: 2px solid;}
